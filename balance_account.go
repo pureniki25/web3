@@ -12,6 +12,7 @@ import (
 )
 
 func checkAccountBalance() {
+	// 测试一下
 	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/_gI0dP6yhERf2Rlx9zcasrkwRIkTEQ6m")
 	if err != nil {
 		log.Fatal(err)
